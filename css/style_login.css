@@ -1,0 +1,136 @@
+.pos3{
+  position: relative;
+  top: 20px;
+}
+
+.pos2{
+  position: relative;
+  top: 130px;
+}
+
+.row-centered {
+  text-align:center;
+}
+
+.row-right{
+  text-align:right;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+  text-align:left;
+  margin-right:-4px;
+}
+.pos1{
+  position: relative;
+  top: 50px;
+}
+
+body{
+     margin-bottom: 30px;
+     padding-bottom: 70px;
+}
+
+.container{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-height: 100%;
+}
+
+.row{
+  margin: 0;
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+#arrow_img{
+  position:absolute;
+    width:30px;
+    height:30px;
+    margin: -15px auto -15px -13px;
+}
+.input input:focus {
+  padding: 10px 5px 10px 10px;
+  outline: 0;
+  border-color: #FF7052;
+}
+.submit {
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 0 auto -15px auto;
+  background: #fff;
+  border-radius: 100%;
+  border: 1px solid #FF7052;
+  color: #FF7052;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 7px #fff;
+  transition: 0.2s ease-out;
+}
+.submit:hover,
+.submit:focus {
+  background: #FF7052;
+  color: #fff;
+  outline: 0;
+}
+
+.closeButton{
+  margin:0px;
+  cursor:pointer;
+  color:#b44230;
+  font-weight:bold;
+  border-left:2px solid black;
+  border-right:2px solid black;
+  border-bottom:2px solid black;
+  background-color:#de2831;color:#fff;
+}
+
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pig-det-details, .pig-det-label{
+      font-size: 13px;
+  }
+  .step-content2 {
+    display: none;
+    margin-top: -25%;
+    margin-left: 9%;
+    width: 80%;
+    height: 250px;
+  }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+  .pig-det-details, .pig-det-label{
+      font-size: 15px;
+  }
+  .step-content2 {
+    display: none;
+    margin-top: -18%;
+    margin-left: 9%;
+    width: 80%;
+    height: 250px;
+  }
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+    color: black;
+  text-decoration: none;
+}
+
+a:hover {
+   color: black;
+  text-decoration: none;
+}
+
+a:active {
+   color: black;
+  text-decoration: none;
+}

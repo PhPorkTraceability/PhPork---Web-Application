@@ -1,0 +1,361 @@
+.container{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-height: 100%;
+}
+.page-header { 
+  margin-top:0px;
+  margin-bottom: 0;
+  padding: 0;
+  border: #b44230;
+  width: 100%;
+}
+.page-header img{
+  width: 100%;
+}
+
+form{
+  margin-top: 1%;
+  margin-left: 50%;
+}
+form .logout{
+  font-size: .9em;
+  margin: 0 5% 0 0;
+}
+.step-indicator {
+  margin-bottom: 0px;
+  overflow: hidden;
+  counter-reset: step;
+}
+.step-indicator li{
+  list-style-type: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1em;
+  width: 15%;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+.step-indicator li:before{
+  content: counter(step);
+  counter-increment: step;
+  width: 30px;
+  line-height: 30px;
+  display: block;
+  font-size: 1em;
+  color: #333;
+  background: #E2E2E2;
+  border-radius: 5px;
+  margin: 0 auto 6px auto;
+  text-align: center;
+ box-shadow: 1px 1px 12px 2px #c2c2c2;
+}
+.step-indicator li:after{
+ content: '';
+  width: 100%;
+  height: 7px;
+  background: #E2E2E2;
+  position: absolute;
+  left: -50%;
+  top: 9px;
+  z-index: -1; /*put it behind the numbers*/
+}
+.step-indicator li:first-child:after {
+  /*connector not needed before the first step*/
+  content: none; 
+}
+.step-indicator li.active:before, .step-indicator li.active:after {
+  background: #bb1d24;
+  color: white;
+  box-shadow: 1px 1px 12px 2px #bb1d24;
+}
+.step-content {
+  display: none;
+  margin-top: 10px;
+  margin-left: 25%;
+  width: 50%;
+  height: 200px;
+  background-color: #efe8bd;
+  border-radius: 5px;
+  border: 3px solid #e5dec9;
+}
+.step-content.active {
+  display: block;
+}
+
+.row-centered {
+  text-align:center;
+}
+
+a:link, a:visited {
+  color: #696969;
+}
+
+@media screen and (max-width: 991px){
+   .lowerPanel{
+      max-width: 120%; 
+      margin-top: 1%; 
+      padding: 5%;
+      border-radius: 30px; 
+      background-color: #9ecf95;
+      margin-bottom: 5%;
+      padding-top: .5%;
+    }
+    .pos1{
+      width:110%;
+      margin-top: 2%; 
+      margin-left: -32%; 
+      margin-bottom: 3%;
+      padding-top: .5%;
+    }
+    .content{
+      margin-left: -15%;
+    }
+    .btnpos{
+      margin-left: -5%;
+      padding: 1%;
+    }
+    .btn1{
+      height: 25%;
+      width: 40%;
+      background-color: white; 
+      border-radius: 10px;
+      font-size: 20px;
+      background-image: linear-gradient(to bottom,#ccc 0,#e0e0e0 100%);
+    }
+
+    .gro{
+      font-size: 5px;
+      padding-left: 1%;
+      padding-right: 2%;
+    }
+
+    .kg{
+      width: 10%;
+      font-size: 20px; 
+    }
+    .qan{
+      width: 70%;
+    }
+    .qan1{
+      color:black; 
+      width: 25%;
+    }
+  @media screen and (max-height: 700px){
+     .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      overflow: hidden;
+      position: relative;
+    }
+   }
+
+  @media screen and (min-height: 701px){
+    .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      overflow: hidden;
+      position: fixed;
+    }
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .lowerPanel{
+      max-width: 100%; 
+      margin-top: 1%; 
+      padding: 20px; 
+      padding-top: 2px;
+      border-radius: 30px; 
+      background-color: #9ecf95;
+      margin-bottom: 1%;
+    }
+    .pos1{
+      width:100%;
+      margin-top: 2%; 
+      margin-left: -25%; 
+      margin-bottom: 3%;
+    }
+    .content{
+      margin-left: -15%;
+    }
+    .btnpos{
+      margin-left: -5%;
+      padding: 1%;
+    }
+    
+    .btn1{
+      height: 25%;
+      width: 30%;
+      background-color: white; 
+      border-radius: 10px;
+      font-size: 20px;
+      background-image: linear-gradient(to bottom,#ccc 0,#e0e0e0 100%);
+    }
+    .kg{
+      width: 10%;
+      font-size: 20px; 
+    }
+
+  @media screen and (max-height: 700px){
+    .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      overflow: hidden;
+      position: relative;
+    }
+  }
+
+  @media screen and (min-height: 701px){
+    .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      overflow: hidden;
+      position: fixed;
+    }
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1899px){
+  .lowerPanel{
+    max-width: 100%; 
+    margin-top: 1%; 
+    padding: 20px; 
+    padding-top: 2px;
+    border-radius: 30px; 
+    background-color: #9ecf95;
+    margin-bottom: 1%;
+  }
+  .pos1{
+    width:100%;
+    margin-top: 2%; 
+    margin-left: -28%; 
+    margin-bottom: 3%;
+  }
+  .content{
+    margin-left: -15%;
+  }
+  .btnpos{
+    margin-left: -5%;
+    padding: 1%;
+  }
+  
+  .btn1{
+    height: 25%;
+    width: 25%;
+    background-color: white; 
+    border-radius: 10px;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom,#ccc 0,#e0e0e0 100%);
+  }
+  .kg{
+      width: 10%;
+      font-size: 25px; 
+    }
+  @media screen and (max-height: 700px){
+    .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      margin-bottom: 0px;
+      overflow: hidden;
+      position: relative;
+    }
+  }
+  @media screen and (min-height: 701px){
+    .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      margin-bottom: 0px;
+      overflow: hidden;
+      position: fixed;
+    }
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .lowerPanel{
+      max-width: 100%; 
+      margin-top: 1%; 
+      padding: 20px; 
+      padding-top: 2px;
+      border-radius: 30px; 
+      background-color: #9ecf95;
+      margin-bottom: 1%;
+    }
+    .pos1{
+      width:100%;
+      margin-top: 3%; 
+      margin-left: -25%; 
+      margin-bottom: 3%;
+    }
+    .content{
+      margin-left: -10%;
+    }
+    .btnpos{
+      margin-left: -5%;
+      padding: 1%;
+    }
+    .btn1{
+      height: 25%;
+      width: 20%;
+      background-color: white; 
+      border-radius: 10px;
+      font-size: 20px;
+      background-image: linear-gradient(to bottom,#ccc 0,#e0e0e0 100%);
+    }
+    .kg{
+        width: 10%;
+        font-size: 25px; 
+      }
+  @media screen and (max-height: 700px){
+    .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      margin-bottom: 0px;
+      overflow: hidden;
+      position: relative;
+    }
+  }
+  @media screen and (min-height: 701px){
+    .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      margin-bottom: 0px;
+      overflow: hidden;
+      position: fixed;
+    }
+  }
+}

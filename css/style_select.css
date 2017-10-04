@@ -1,0 +1,368 @@
+body{
+     margin-bottom: 10px;
+}
+
+.container{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-height: 100%;
+}
+
+
+.page-header { 
+  margin-top:0;
+  margin-bottom: 0;
+  padding: 0;
+  border: #b44230;
+  width: 100%;
+}
+
+.page-header img{
+  width: 100%;
+}
+
+.page-footer {
+    background-color: #bb1d24;
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+    position: fixed;
+    overflow: hidden;
+}
+
+.page-footer img{
+  width: 100%;
+}
+
+.row-centered {
+  text-align:center;
+}
+
+.col-centered {
+  display:inline-block;
+  float:none;
+  text-align:left;
+  margin-right:-4px;
+}
+
+form{
+  margin-top: 1%;
+  margin-left: 50%;
+}
+
+form .logout{
+  font-size: .9em;
+  margin: 0 5% 0 0;
+}
+
+.custom-dropdown2 select {
+  background-color: white;
+  color: black;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em; 
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: black;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -webkit-appearance: button; /* hide default arrow in chrome OSX */
+  width: 100%;
+}
+
+.custom-dropdown2::before,
+.custom-dropdown2::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  
+}
+
+.custom-dropdown2::after { /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+.custom-dropdown2::before { /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.custom-dropdown2 select[disabled] {
+  color: rgba(0,0,0,.3);
+}
+
+.custom-dropdown2 select[disabled]::after {
+  color: rgba(0,0,0,.1);
+}
+
+.custom-dropdown2::before {
+  background-color: #8fb786;
+}
+
+.custom-dropdown2::after {
+  color: rgba(0,0,0,.4);
+}
+
+.bs-example{
+      margin: 20px;
+    }
+
+.text-center { 
+    text-align: center; 
+  }
+
+  .tooltip > .tooltip-inner{
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 991px){
+  .lowerPanel{
+    max-width: 50%; 
+    margin-left: 25%; 
+    margin-top: 1.5%; 
+    padding: 2%; 
+    border-radius: 30px; 
+    border: 5px solid; 
+    border-color: #9ecf95;
+  }
+  .lowerPanel1{
+    max-width: 50%; 
+    margin-left: 25%; 
+    margin-top: 1.5%; 
+    padding: 3%; 
+    border-radius: 30px; 
+    border: 5px solid; 
+    border-color: #9ecf95;
+  }
+  .btn1{
+    width: 40%;
+    background-color: white; 
+    border-radius: 10px;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom,#ccc 0,#e0e0e0 100%);
+  }
+  .custom-dropdown2 {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3% 18% 0 ;
+    width: 65%;
+  }
+  .image1{
+    height: 14%; 
+    width: 14%; 
+    margin-right: 5%; 
+    margin-left: 0px;
+  }
+  .image2{
+    height: 14%; 
+    width: 14%;  
+    margin-right: 5%;
+  }
+  .image3{
+    height: 14%; 
+    width: 14%;  
+    margin-right: 0px;
+  }
+  .pos{
+    margin-top: 5%;
+  }
+
+  .pos1{
+    margin-top: 1%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .lowerPanel{
+    max-width: 50%; 
+    margin-left: 25%; 
+    margin-top: 1.5%; 
+    padding: 2%; 
+    border-radius: 30px; 
+    border: 5px solid; 
+    border-color: #9ecf95;
+  }
+  .lowerPanel1{
+    max-width: 50%; 
+    margin-left: 25%; 
+    margin-top: 1.5%; 
+    padding: 3%; 
+    border-radius: 30px; 
+    border: 5px solid; 
+    border-color: #9ecf95;
+  }
+  .btn1{
+    width: 40%;
+    background-color: white; 
+    border-radius: 10px;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom,#ccc 0,#e0e0e0 100%);
+  }
+  .custom-dropdown2 {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3% 18% 0 ;
+    width: 65%;
+  }
+  .image1{
+    height: 14%; 
+    width: 14%; 
+    margin-right: 7%; 
+    margin-left: 0px;
+  }
+  .image2{
+    height: 14%; 
+    width: 14%; 
+    margin-right: 7%;
+  }
+  .image3{
+    height: 14%; 
+    width: 14%; 
+    margin-right: 0px;
+  }
+  .pos{
+    margin-top: 4%;
+  }
+
+  .pos1{
+    margin-top: 1%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1599px){
+  .lowerPanel{
+    max-width: 50%; 
+    margin-left: 25%; 
+    margin-top: 1.5%; 
+    padding: 2%; 
+    border-radius: 30px; 
+    border: 5px solid; 
+    border-color: #9ecf95;
+    margin-bottom: 2%;
+  }
+  .lowerPanel1{
+    max-width: 50%; 
+    margin-left: 25%; 
+    margin-top: 1.5%; 
+    padding: 3%; 
+    border-radius: 30px; 
+    border: 5px solid; 
+    border-color: #9ecf95;
+  }
+  .btn1{
+    width: 40%;
+    background-color: white; 
+    border-radius: 10px;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom,#ccc 0,#e0e0e0 100%);
+  }
+  .custom-dropdown2 {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3% 18% 0 ;
+    width: 65%;
+  }
+  .image1{
+    height: 12%; 
+    width: 12%; 
+    margin-right: 9%; 
+    margin-left: 0px;
+  }
+  .image2{
+    height: 12%; 
+    width: 12%; 
+    margin-right: 9%;
+  }
+  .image3{
+    height: 12%; 
+    width: 12%; 
+    margin-right: 0px;
+  }
+  .pos{
+    margin-top: 3%;
+  }
+
+  .pos1{
+    margin-top: 1%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .lowerPanel{
+    max-width: 50%; 
+    height: 230px; 
+    margin-left: 25%; 
+    margin-top: 25px; 
+    padding: 20px; 
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-radius: 30px; 
+    border: 5px solid; 
+    border-color: #9ecf95;
+  }
+
+  .lowerPanel1{
+    max-width: 45%;  
+    margin-left: 28%; 
+    margin-top: 25px; 
+    padding: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 30px; 
+    border: 5px solid; 
+    border-color: #9ecf95;
+  }
+
+  .btn1{
+    height: 25%;
+    width: 30%;
+    background-color: white; 
+    border-radius: 10px;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom,#ccc 0,#e0e0e0 100%);
+  }
+  .custom-dropdown2 {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3% 27% 0 ;
+    width: 46%;
+  }
+  .image1{
+    height: 10%; 
+    width: 10%; 
+    margin-right: 9%; 
+    margin-left: 0px;
+  }
+  .image2{
+    height: 10%; 
+    width: 10%; 
+    margin-right: 9%;
+  }
+  .image3{
+    height: 10%; 
+    width: 10%; 
+    margin-right: 0px;
+  }
+  .pos{
+    margin-top: 5%;
+  }
+  .pos1{
+    margin-top: 2%;
+  }
+}

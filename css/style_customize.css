@@ -1,0 +1,200 @@
+.page-header { 
+  margin-top:0px;
+  margin-bottom: 0;
+  padding: 0;
+  border: #b44230;
+  width: 100%;
+}
+
+.page-header img{
+  width: 100%;
+}
+
+.btn1{
+  height: 25%;
+  width: 30%;
+  background-color: white; 
+  border-radius: 10px;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom,#ccc 0,#e0e0e0 100%);
+}
+
+form{
+  margin-top: 1%;
+  margin-left: 50%;
+}
+
+form .logout{
+  font-size: .9em;
+  margin: 0 5% 0 0;
+}
+
+.prnt,.mvmnt_radio,.feeds_radio,.meds_radio {
+  width:70%;
+  height:70%;
+}
+
+@media screen and (max-width: 991px){
+  .lower{
+      width: 95%;
+      height: 80%;
+      margin-left: 10%; 
+      margin-top: 5%;
+      padding: 1%;
+      padding-top: 5%;
+      margin-bottom: 2%;
+      margin: 2%;
+    }
+
+   .table1{
+      max-width:100%;
+      max-height: 30%;
+      overflow-y:auto;
+      border: 10px solid; 
+      border-color: #9ecf95; 
+      border-radius: 10px; 
+      padding: 1%; 
+      margin-top: 0px;
+      padding-bottom: 0px;
+    }
+
+    .tbl{
+      margin-left: 15%;
+      margin-right: 15%; 
+      margin-top: 3%; 
+      padding: 2%;
+    }
+
+    .theader{
+      font-size: 12px;
+    }
+
+ @media screen and (max-height: 700px){
+     .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      overflow: hidden;
+      position: relative;
+    }
+   }
+
+  @media screen and (min-height: 701px){
+    .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      overflow: hidden;
+      position: fixed;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .lower{
+      width: 80%;
+      height: 80%;
+      margin-left: 10%; 
+      margin-top: 5%;
+      padding: 1%;
+      margin-bottom: 2%;
+    }
+
+   .table1{
+      max-width:100%;
+      max-height: 30%;
+      overflow-y:auto;
+      border: 10px solid; 
+      border-color: #9ecf95; 
+      border-radius: 10px; 
+      padding: 1%; 
+      margin-top: 0px;
+      padding-bottom: 0px;
+    }
+
+    .tbl{
+      margin-left: 15%;
+      margin-right: 15%; 
+      margin-top: 3%; 
+      padding: 2%;
+    }
+  @media screen and (max-height: 700px){
+     .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      overflow: hidden;
+      position: relative;
+    }
+   }
+
+  @media screen and (min-height: 701px){
+    .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      overflow: hidden;
+      position: fixed;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .lower{
+      margin: 20%; 
+      margin-left: 18%;
+      margin-top: 5%;
+      padding: 1%;
+      margin-bottom: 2%;
+   }
+
+  .table1{
+    border: 10px solid; 
+    border-color: #9ecf95; 
+    border-radius: 10px; 
+    padding: 1%; 
+    margin-top: 0px;
+  }
+  .tbl{
+      margin-left: 15%;
+      margin-right: 15%; 
+      margin-top: 3%;
+      padding: 2%;
+    }
+  @media screen and (max-height: 700px){
+     .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      overflow: hidden;
+      position: relative;
+    }
+   }
+  @media screen and (min-height: 701px){
+    .page-footer {
+      background-color: #bb1d24;
+      text-align: center;
+      color: white;
+      width: 100%;
+      bottom: 0;
+      height: 4%;
+      overflow: hidden;
+      position: fixed;
+    }
+  }
+}
